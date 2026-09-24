@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "pack_version": "fixture-2026.09.1",
+  "types": [
+    {
+      "id": "notice",
+      "name": "通知",
+      "title_keywords": ["通知"],
+      "required_fields": ["title", "issuer", "published_date", "audience", "action_deadline", "contact"],
+      "required_sections": [
+        {"id": "title", "name": "标题", "keywords": ["通知"]},
+        {"id": "audience", "name": "受文对象", "keywords": ["各", "全体", "各位", "全校"]},
+        {"id": "body", "name": "正文", "min_lines": 4},
+        {"id": "issuer", "name": "发文单位", "keywords": ["学校", "中学", "小学", "教育局", "教务处"]},
+        {"id": "date", "name": "成文日期", "date_required": true}
+      ],
+      "sensitive_terms": ["处分", "开除", "罚款", "追责", "承诺", "保证"],
+      "visibility_default": "public"
+    },
+    {
+      "id": "minutes",
+      "name": "会议纪要",
+      "title_keywords": ["会议纪要", "纪要"],
+      "required_fields": ["title", "issuer", "meeting_date", "attendees", "decisions", "action_items"],
+      "required_sections": [
+        {"id": "title", "name": "标题", "keywords": ["会议纪要", "纪要"]},
+        {"id": "attendees", "name": "参会人员", "keywords": ["参会", "出席", "参加人员", "列席", "与会"]},
+        {"id": "decisions", "name": "议定事项", "keywords": ["议定", "决定", "研究", "通过"]},
+        {"id": "action_items", "name": "待办事项", "keywords": ["责任人", "负责人", "完成时间", "分工"]},
+        {"id": "date", "name": "会议日期", "date_required": true}
+      ],
+      "sensitive_terms": ["处分", "开除", "罚款", "追责", "承诺", "保证"],
+      "visibility_default": "internal"
+    }
+  ]
+}

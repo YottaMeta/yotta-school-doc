@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "doc_type": "notice",
+  "visibility": "public",
+  "title": "关于开展秋季运动会的通知",
+  "issuer": "示例中学",
+  "published_date": "2026-09-24",
+  "audience": "各年级组、各班级",
+  "action_deadline": "2026-09-30",
+  "contact": "教务处（010-00000000）",
+  "body_points": ["运动会时间与地点", "报名办法", "安全工作要求"],
+  "attachments": ["报名表.xlsx"],
+  "approval": {"reviewer": "校务会", "approved_date": "2026-09-23"}
+}
