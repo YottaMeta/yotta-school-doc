@@ -1,5 +1,10 @@
 # 更新日志
 
+## v0.1.2 (2026-09-24)
+
+- 修复 SkillHub 分类：显式声明一级分类 `education`（教育学习）与二级分类 `edu-teaching-aid`（教学辅助），避免平台把公文校验误分到 `IT 运维与安全`。
+- 发布链路：SkillHub 分类字段现在进入副本契约并在上传 payload 中显式传递；功能与 0.1.1 相同。
+
 ## v0.1.1 (2026-09-24)
 
 - 修复：中英 README 页头补挂 `assets/banner.png`，GitHub / 平台首屏可直接看到品牌 banner。
