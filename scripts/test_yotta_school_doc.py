@@ -458,6 +458,10 @@ class DocContractTest(unittest.TestCase):
         self.assertIn("方式四", readme)
         self.assertIn("install.sh --agent", readme)
 
+    def test_readme_references_banner(self):
+        for name in ("README.md", "README.zh-CN.md"):
+            self.assertIn("assets/banner.png", self._read(name))
+
     def test_disclaimer_documented(self):
         for name in ("SKILL.md", "README.zh-CN.md", "references/privacy.md"):
             self.assertIn("最终签发", self._read(*name.split("/")), name)

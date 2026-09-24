@@ -1,10 +1,21 @@
-# 元公 yotta-school-doc
+<p align="center"><b>语言</b>: 中文 · <a href="./README.md">English</a></p>
 
-<b>Language</b>: 中文 · [English](README.md)
+<p align="center">
+  <img src="assets/banner.png" alt="yotta-school-doc banner" width="100%" />
+</p>
 
-本地、确定性的学校公文可信起草与校验技能。元公不编造事实：它读取版本化文种规则包与结构化事实，
-生成可复算的文书骨架，并对已有文稿检查必填字段、结构段、日期格式与先后关系、事实日期一致性、
-附件、未定占位值、学生个人信息、过度承诺、敏感表述和会议待办完整性。
+<h1 align="center">元公 yotta-school-doc · 学校公文校验</h1>
+
+<p align="center">YottaMeta 的<b>学校公文可信起草与校验技能</b>：把版本化文种规则包与结构化事实变成
+可复算的文书骨架，再对已有文稿检查必填字段、结构段、日期格式与先后关系、事实日期一致性、附件、
+未定占位值、学生个人信息、过度承诺、敏感表述和会议待办完整性。</p>
+<p align="center">零依赖（Python 3.8+ 标准库），本地运行：不联网、不调用模型、不上传、不编造事实。</p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue" /></a>
+  <a href="https://agentskills.io/"><img alt="Standard: agentskills.io" src="https://img.shields.io/badge/standard-agentskills.io-orange" /></a>
+  <a href="https://www.npmjs.com/package/@yottameta/yotta-school-doc"><img alt="npm package" src="https://img.shields.io/npm/v/@yottameta/yotta-school-doc" /></a>
+</p>
 
 ## 为什么做
 

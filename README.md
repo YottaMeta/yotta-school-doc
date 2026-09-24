@@ -1,12 +1,23 @@
-# 元公 yotta-school-doc
+<p align="center"><b>Language</b>: English · <a href="./README.zh-CN.md">中文</a></p>
 
-<b>Language</b>: English · 中文
+<p align="center">
+  <img src="assets/banner.png" alt="yotta-school-doc banner" width="100%" />
+</p>
 
-A local, deterministic drafting-skeleton and validation skill for school documents.
-It does not invent facts. It reads a versioned document-type rule pack and a structured facts file,
-builds a reproducible document skeleton, and checks an existing draft for missing fields, date issues,
-attachment mismatches, placeholders, student personal data, overclaims, sensitive wording and incomplete
-meeting action items.
+<h1 align="center">yotta-school-doc · 元公 (YuanGong)</h1>
+
+<p align="center">YottaMeta's <b>deterministic drafting-skeleton and validation skill for school documents</b>:
+turn a versioned document-type rule pack and a structured facts file into a reproducible skeleton, then
+check an existing draft for missing fields, date issues, attachment mismatches, placeholders, student
+personal data, overclaims, sensitive wording and incomplete meeting action items.</p>
+<p align="center">Pure Python 3.8+ standard library, zero dependencies; local-only — no network, no model
+calls, no upload, no fabricated facts.</p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue" /></a>
+  <a href="https://agentskills.io/"><img alt="Standard: agentskills.io" src="https://img.shields.io/badge/standard-agentskills.io-orange" /></a>
+  <a href="https://www.npmjs.com/package/@yottameta/yotta-school-doc"><img alt="npm package" src="https://img.shields.io/npm/v/@yottameta/yotta-school-doc" /></a>
+</p>
 
 ## Why
 
